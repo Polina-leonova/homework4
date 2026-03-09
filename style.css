@@ -237,15 +237,22 @@ padding: 60px 0;
 }
 }
 
+@media screen and (max-width: 768px) {
+    .info-wrapper {
+        gap: 60px;
+        /* 📍 Свойства для расположения 2-x списков и отступа между ними */
+    }
+}
+
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
 
     .main-section {
-        padding: 40px 0;
+        padding: 30px 0 60px;
     }
 
     .main-section .wrapper {
-        gap: 20px;
+        gap: 40px;
     }
 
     .main-title {
@@ -254,6 +261,6 @@ padding: 60px 0;
 
     .about-section .wrapper,
     .info-wrapper {
-        gap: 60px;
+        gap: 50px;
     }
 }
